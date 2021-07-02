@@ -1,9 +1,9 @@
 #include <stack>
 #include <typeinfo>
-#include <llvm/Module.h>
-#include <llvm/Function.h>
-#include <llvm/Type.h>
-#include <llvm/PassManager.h>
+#include <llvm/IR/Module.h>
+#include <llvm/IR/Function.h>
+#include <llvm/IR/Type.h>
+#include <llvm/IR/PassManager.h>
 #include <llvm/Bitcode/ReaderWriter.h>
 #include <llvm/Analysis/Verifier.h>
 #include <llvm/Assembly/PrintModulePass.h>
